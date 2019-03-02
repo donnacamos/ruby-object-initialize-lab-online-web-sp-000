@@ -10,7 +10,7 @@ class Dog
     @name
   end 
   
-  def breed=(pug)
+  def breed=(pug, mutt) 
     @name = pug
   end
   def breed
