@@ -8,6 +8,16 @@ class Dog
   def name
     @name
   end 
+  
+  def initialize(pug, mutt)
+    @breed = pug
+  end
+  def breed=(pug)
+    @name = pug
+  end
+  def breed
+    @breed
+  end 
  end 
  
  
